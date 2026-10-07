@@ -1,17 +1,15 @@
 <!--
   Profile README — Kanha Jodhpurkar
-  Visual system: Metrics embeds · skill icons · motion SVGs · contribution snake
+  Visual system: Metrics · skill icons · motion SVGs · contribution snake
   Voice: sleek modern. HeartMetrics = past project, not current role.
 -->
 
 <div align="center">
 
-  <!-- Motion header -->
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3200&pause=900&color=E8EEF7&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=100&lines=Kanha+Jodhpurkar;AI+product+%C2%B7+LLMs+%C2%B7+analytics" alt="Kanha Jodhpurkar — animated header" />
 
   <br/>
 
-  <!-- Identity strip — icons, not walls of text -->
   <a href="https://www.linkedin.com/in/kjod/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   &nbsp;
   <img src="https://img.shields.io/badge/ASU_W.P._Carey-8C1D40?style=for-the-badge&logo=arizona-state-university&logoColor=white" alt="ASU W. P. Carey" />
@@ -25,18 +23,17 @@
 <br/>
 
 <div align="center">
-  <img src="metrics.overview.svg" alt="GitHub metrics overview and isometric calendar" width="100%" />
+  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=header&base.indepth=true&isocalendar=1&isocalendar.duration=full-year&config.timezone=America%2FPhoenix&config.twemoji=true" alt="Metrics overview and isometric calendar" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2400&pause=1200&color=94A3B8&center=true&vCenter=true&width=560&height=28&lines=Selected+signal+—+not+noise" alt="section cue" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2400&pause=1200&color=94A3B8&center=true&vCenter=true&width=560&height=28&lines=Selected+signal+%E2%80%94+not+noise" alt="section cue" />
 </div>
 
 <br/>
 
-<!-- Project constellation — icon-led cards -->
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
@@ -88,7 +85,6 @@
 
 ### arsenal
 
-<!-- Icons only — no tool-name laundry list -->
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=python,ts,nextjs,react,nodejs,postgres,supabase,pytorch,gcp,vercel,github,figma&perline=6&theme=dark" alt="Stack icons" />
 </a>
@@ -105,30 +101,32 @@
 ---
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="metrics.languages.svg" alt="Language metrics" width="100%" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=kjodhpur&show_icons=true&theme=transparent&bg_color=0D1117&title_color=E8EEF7&text_color=94A3B8&icon_color=38BDF8&hide_border=true&include_all_commits=true&count_private=false" alt="GitHub stats" height="180" />
-        <br/>
-        <img src="https://streak-stats.demolab.com?user=kjodhpur&theme=dark&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=E8EEF7&sideLabels=94A3B8&dates=64748B&hide_border=true" alt="Commit streak" height="180" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=0&languages=1&languages.limit=8&languages.details=bytes-size%2Cpercentage&languages.sections=most-used&languages.indepth=true&languages.ignored=html%2Ccss%2Cmake%2Cdockerfile%2Cshell&languages.other=true&config.twemoji=true" alt="Language metrics" width="100%" />
 </div>
 
-<div align="center">
-  <img src="metrics.habits.svg" alt="Coding habits metrics" width="100%" />
-</div>
+<br/>
 
 <div align="center">
-  <img src="metrics.activity.svg" alt="Recent activity metrics" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kjodhpur&show_icons=true&theme=transparent&bg_color=0D1117&title_color=E8EEF7&text_color=94A3B8&icon_color=38BDF8&hide_border=true&include_all_commits=true" alt="GitHub stats" height="170" />
+  <img src="https://streak-stats.demolab.com?user=kjodhpur&theme=dark&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=E8EEF7&sideLabels=94A3B8&dates=64748B&hide_border=true" alt="Commit streak" height="170" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="metrics.achievements.svg" alt="GitHub achievements" width="100%" />
+  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=0&habits=1&habits.from=200&habits.days=14&habits.facts=true&habits.charts=true&config.twemoji=true" alt="Coding habits" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=0&activity=1&activity.limit=8&activity.days=14&activity.filter=issue%2Cpr%2Crelease%2Cfork%2Creview%2Cref%2Fcreate&config.twemoji=true" alt="Recent activity" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=0&achievements=1&achievements.threshold=C&achievements.limit=6&achievements.display=compact&config.twemoji=true" alt="Achievements" width="100%" />
 </div>
 
 ---
@@ -159,6 +157,10 @@
 
   <br/><br/>
 
-  <sub>metrics by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics@v3.34</a> · snake by <a href="https://github.com/Platane/snk">Platane/snk</a></sub>
+  <sub>
+    visuals · <a href="https://github.com/lowlighter/metrics">lowlighter/metrics@v3.34</a>
+    · <a href="https://github.com/Platane/snk">Platane/snk</a>
+    · skill icons · typing SVG
+  </sub>
 
 </div>
