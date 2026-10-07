@@ -9,20 +9,21 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Metrics · overview
+      # Isometric calendar only — no header (avoids redundant joined/followers under the name)
+      - name: Metrics · calendar
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: kjodhpur
           template: classic
-          base: header
-          base_indepth: yes
+          base: ""
           filename: metrics.overview.svg
           output_action: commit
-          committer_message: "chore(metrics): update overview"
+          committer_message: "chore(metrics): update calendar"
           config_timezone: America/Phoenix
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
       - name: Metrics · languages
         uses: lowlighter/metrics@v3.34
         with:
@@ -40,46 +41,3 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_indepth: yes
           plugin_languages_other: yes
-      - name: Metrics · activity
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: kjodhpur
-          template: classic
-          base: ""
-          filename: metrics.activity.svg
-          output_action: commit
-          committer_message: "chore(metrics): update activity"
-          plugin_activity: yes
-          plugin_activity_limit: 8
-          plugin_activity_days: 14
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
-      - name: Metrics · achievements
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: kjodhpur
-          template: classic
-          base: ""
-          filename: metrics.achievements.svg
-          output_action: commit
-          committer_message: "chore(metrics): update achievements"
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_limit: 6
-          plugin_achievements_display: compact
-      - name: Metrics · habits
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: kjodhpur
-          template: classic
-          base: ""
-          filename: metrics.habits.svg
-          output_action: commit
-          committer_message: "chore(metrics): update habits"
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
