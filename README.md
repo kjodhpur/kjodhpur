@@ -23,7 +23,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=header&base.indepth=true&isocalendar=1&isocalendar.duration=full-year&config.timezone=America%2FPhoenix&config.twemoji=true" alt="Metrics overview and isometric calendar" width="100%" />
+  <img src="metrics.overview.svg" alt="Metrics overview and isometric calendar" width="100%" />
 </div>
 
 ---
@@ -101,7 +101,7 @@
 ---
 
 <div align="center">
-  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=0&languages=1&languages.limit=8&languages.details=bytes-size%2Cpercentage&languages.sections=most-used&languages.indepth=true&languages.ignored=html%2Ccss%2Cmake%2Cdockerfile%2Cshell&languages.other=true&config.twemoji=true" alt="Language metrics" width="100%" />
+  <img src="metrics.languages.svg" alt="Language metrics" width="100%" />
 </div>
 
 <br/>
@@ -114,19 +114,19 @@
 <br/>
 
 <div align="center">
-  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=0&habits=1&habits.from=200&habits.days=14&habits.facts=true&habits.charts=true&config.twemoji=true" alt="Coding habits" width="100%" />
+  <img src="metrics.habits.svg" alt="Coding habits" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=0&activity=1&activity.limit=8&activity.days=14&activity.filter=issue%2Cpr%2Crelease%2Cfork%2Creview%2Cref%2Fcreate&config.twemoji=true" alt="Recent activity" width="100%" />
+  <img src="metrics.activity.svg" alt="Recent activity" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://metrics.lecoq.io/kjodhpur?template=classic&base=0&achievements=1&achievements.threshold=C&achievements.limit=6&achievements.display=compact&config.twemoji=true" alt="Achievements" width="100%" />
+  <img src="metrics.achievements.svg" alt="Achievements" width="100%" />
 </div>
 
 ---
