@@ -1,11 +1,12 @@
 name: Update profile art
 
-# Refreshes contribution graph + stats card SVGs from real public data.
+# Refreshes contribution graph, stats card, and fortune quotes.
 # Keeps the existing contribution-snake workflow separate.
 
 "on":
   schedule:
-    - cron: "17 6 * * *"
+    - cron: "0 * * * *"      # hourly — reshuffles fortune quotes often
+    - cron: "17 6 * * *"     # daily full refresh (kept)
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -37,8 +38,11 @@ jobs:
       - name: Render streak / numbers card
         run: python scripts/render_stats_svg.py
 
+      - name: Render fortune quotes panel
+        run: python scripts/render_quotes_svg.py
+
       - name: Commit updated art
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg"
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg quotes.svg"
