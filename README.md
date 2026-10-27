@@ -11,7 +11,7 @@
 
 <!-- fortune typewriter square + streak/stats card (equal 840x880 canvases) -->
 
-<h3><code>kanha@github ~ $ whoami</code></h3>
+<h3><code>kanha@github ~ $ fortune</code></h3>
 
 <table>
 <tr>
