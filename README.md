@@ -23,11 +23,11 @@
 <br>
 <br>
 
-<!-- inspirational quotes: AVI terminal fortune panel (SMIL rotate; reshuffled hourly by Actions) -->
+<!-- fortune: hosted no-cache SVG — new random quote when GitHub/camo re-fetches -->
 
 <h3><code>kanha@github ~ $ fortune</code></h3>
 
-<img src="./quotes.svg" width="860" alt="Rotating inspirational quotes" />
+<img src="https://events-portfolio-ivory.vercel.app/api/fortune" width="860" alt="Random inspirational quote — refreshes with Cache-Control: no-store" />
 
 
 <br>
