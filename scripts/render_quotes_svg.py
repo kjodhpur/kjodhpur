@@ -28,6 +28,9 @@ HOLD, FADE = 5.0, 0.7  # seconds per quote, crossfade
 N_SHOW = 8
 
 quotes = json.load(open(SRC))
+seed = os.environ.get("QUOTE_SEED") or os.environ.get("GITHUB_RUN_ID")
+if seed:
+    random.seed(str(seed))
 random.shuffle(quotes)
 quotes = quotes[:N_SHOW]
 cycle = len(quotes) * (HOLD + FADE)

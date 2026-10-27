@@ -23,16 +23,12 @@
 <br>
 <br>
 
-<!-- inspirational quotes: AVI terminal fortune panel (SMIL rotate) + dynamic API for new quote on many page refreshes -->
+<!-- inspirational quotes: AVI terminal fortune panel (SMIL rotate; reshuffled hourly by Actions) -->
 
 <h3><code>kanha@github ~ $ fortune</code></h3>
 
 <img src="./quotes.svg" width="860" alt="Rotating inspirational quotes" />
 
-<br>
-
-<!-- dynamic quote — typically changes when the page/image is re-fetched -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="860" alt="Fresh inspirational quote on refresh" />
 
 <br>
 <br>
