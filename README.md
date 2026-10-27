@@ -15,7 +15,7 @@
 
 <table>
 <tr>
-<td valign="top"><img src="./kanha-ascii.svg" width="420" alt="Kanha Jodhpurkar — ASCII portrait" /></td>
+<td valign="top"><img src="./kanha-ascii.v2.svg?v=heic-20261027" width="420" alt="Kanha Jodhpurkar — ASCII portrait from headshot" /></td>
 <td valign="top"><img src="./stats.svg" width="420" alt="Kanha's GitHub streak and contribution stats — auto-refreshed daily" /></td>
 </tr>
 </table>
