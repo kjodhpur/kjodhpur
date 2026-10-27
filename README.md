@@ -9,26 +9,16 @@
 <br>
 <br>
 
-<!-- ascii portrait + streak/stats card (equal 840x880 canvases) -->
+<!-- fortune typewriter square + streak/stats card (equal 840x880 canvases) -->
 
 <h3><code>kanha@github ~ $ whoami</code></h3>
 
 <table>
 <tr>
-<td valign="top"><img src="./kanha-ascii.v2.svg?v=heic-20261027" width="420" alt="Kanha Jodhpurkar — ASCII portrait from headshot" /></td>
+<td valign="top"><img src="https://events-portfolio-ivory.vercel.app/api/fortune" width="420" alt="Random inspirational quote — types in like the ASCII panel, new on every refresh" /></td>
 <td valign="top"><img src="./stats.svg" width="420" alt="Kanha's GitHub streak and contribution stats — auto-refreshed daily" /></td>
 </tr>
 </table>
-
-<br>
-<br>
-
-<!-- fortune: hosted no-cache SVG — new random quote when GitHub/camo re-fetches -->
-
-<h3><code>kanha@github ~ $ fortune</code></h3>
-
-<img src="https://events-portfolio-ivory.vercel.app/api/fortune" width="860" alt="Random inspirational quote — refreshes with Cache-Control: no-store" />
-
 
 <br>
 <br>
